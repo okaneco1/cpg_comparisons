@@ -95,7 +95,7 @@ dist_df <- cbind(dist_df, full_labels_df)
 dist_df <- dist_df[, c(3, 1:2, 6)]
 colnames(dist_df)[2:3] <- c("type1_distance", "type2_distance")
 
-### Plot
+#---- Plot
 
 # Filter out rows with NA
 filtered_dist_df <- dist_df %>%
