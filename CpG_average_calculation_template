@@ -1,0 +1,21 @@
+Template for running CpG average calculation scripts on different species
+
+
+# Ananas_comosus
+
+# high GC content
+/data/run/conorokane/GCproject/kchilds_scripts/calculate_average_CpG_content_across_CDS_and_2000bp_upstream_downstream_copy_list.pl \
+  -g /data/run/conorokane/GCproject/species/Ananas_comosus/Acomosus_321_v3.fa \
+  -G /data/run/conorokane/GCproject/species/Ananas_comosus/Acomosus_321_v3.gene_simplified.gff3 \
+  -p /data/run/conorokane/GCproject/species/Ananas_comosus/O_sativa_v_A_comosus_high_GC_synteny.txt \
+  -R F \
+  -o /data/run/conorokane/GCproject/species/Ananas_comosus/Ananas_comosus_high_GC_CpG_content_across_CDS_and_2000bp_upstream_downstream_list.txt
+
+
+# low GC content
+/data/run/conorokane/GCproject/kchilds_scripts/calculate_average_CpG_content_across_CDS_and_2000bp_upstream_downstream_copy_list.pl \
+  -g /data/run/conorokane/GCproject/species/Ananas_comosus/Acomosus_321_v3.fa \
+  -G /data/run/conorokane/GCproject/species/Ananas_comosus/Acomosus_321_v3.gene_simplified.gff3 \
+  -p /data/run/conorokane/GCproject/species/Ananas_comosus/O_sativa_v_A_comosus_low_GC_synteny.txt \
+  -R F \
+  -o /data/run/conorokane/GCproject/species/Ananas_comosus/Ananas_comosus_low_GC_CpG_content_across_CDS_and_2000bp_upstream_downstream_list.txt
