@@ -1,5 +1,11 @@
 # Comparison of CpG Content
-The objective of this project was to examine the CpG content across various gene regions in different plant species
+This project focused on analyzing the CpG content among CDS regions and their upstream/downstream regions. Several plant species were compared, and were deemed to be either "high" or "low" CpG species. 
 
-Specifically, CpG methylation rates and average CpG content in the CDS of various gene regions, including 2000bp upstream and downstream, were compared.
+CDS were normalized into 20 bins per region, and 2000 bp upstream and downstream of the CDS were included. Interspecific comparisons were then conducted with various distance calculations such as Euclidean and Manhattan distances. 
+
+### Visualizations
+
+Several methods of multidimensional data visualization were conducted, including PCA plots, MDS plots, and T-Sne plots. 
+
+The code for each of these is included, and scripts were developed for flexible use across other species.
 
